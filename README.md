@@ -1,4 +1,4 @@
-## The content of interesting motifs and their emerging properties in multi-omic metabolic networks
+## Interesting motifs in bacterial multi-omic metabolic networks
 
 This repository contains the manuscript mentioned in the title, and associated code and data sets. Should you need help running our code, please contact us.
 
