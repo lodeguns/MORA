@@ -21,8 +21,8 @@ Source for the MORA is in the main repository, and source used to generate the p
 Here, for the impatient, is an implementation of MORA in [R](https://cran.r-project.org/)
 
 ### MORA (multi-omic relational adjacencies)
-
-get.pattern.adjacent.influences <- function(pattern, delta, psi, g)
+```
+MORA.comp <- function(pattern, delta, psi, g)
 {
     couple <- length(pattern) - (delta - 2)
     dir.edges <- "all"
@@ -76,6 +76,7 @@ get.pattern.adjacent.influences <- function(pattern, delta, psi, g)
     count <- count[!duplicated(names(count))]
     return(count)
 }
+```
 
 ** Licence **
 Computer Laboratory (Cambridge, UK), NeuRoNe Lab (Salerno - IT)
