@@ -16,7 +16,7 @@ Interestingly, some patterns reveal alternating multi-omics or position variatio
  **Conclusions:** The integration of multi-omic data reveals that bacterial multi-omic metabolic networks contain position dependent and multi-omic alternating patterns which could provide clues of long range correlation in the bacterial genome.
  
  **Source Code**
-Source for the MORA is in the main repository, and source used to generate the protein variation is in protein-v, source used to integrate the whole metabolic network from [KEGG](http://www.genome.jp/kegg/) and [EcoCyc](https://ecocyc.org/) is in netw-int. 
+ Source for the MORA is in the main repository, and source used to generate the protein variation is in protein-v, source used to integrate the whole metabolic network from [KEGG](http://www.genome.jp/kegg/) and [EcoCyc](https://ecocyc.org/) is in netw-int. 
 
 Here, for the impatient, is an implementation of MORA in [R](https://cran.r-project.org/)
 
@@ -81,5 +81,5 @@ MORA.comp <- function(pattern, delta, psi, g)
 }
 ```
 
-** Licence **
+**Licence**
 Computer Laboratory (Cambridge, UK), NeuRoNe Lab (Salerno - IT)
