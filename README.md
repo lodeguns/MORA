@@ -57,8 +57,11 @@ MORA.comp <- function(pattern, delta, psi, g)
                   if (length(V(g)[patty$vpath[[k]]]$name) == psi[[y]])
                   {
                     pr <- paste("Pattern elements delta = ", delta - 1, 
-                      ".  Vertex psi neighbouring = ", psi[[y]] - 1, "edges.", 
+                          ".  Vertex psi neighbouring = ", psi[[y]] - 1, "edges.", 
                       sep = " ")
+                    pr <- paste(pr, " Shortest path's end nodes: ", names(count)[i], 
+                          " and ", names(count)[i + (delta-1)], sep=" ")
+
                     namenodes <- V(g)[patty$vpath[[k]]]$name
                     for (z in 1:length(namenodes))
                     {
