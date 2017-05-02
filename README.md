@@ -1,4 +1,4 @@
-## The content of interesting motifs and their emerging properties in multi omic metabolic networks
+## The content of interesting motifs and their emerging properties in multi-omic metabolic networks
 
 This repository contains the manuscript mentioned in the title, and associated code and data sets. Should you need help running our code, please contact us.
 
@@ -7,16 +7,14 @@ This repository contains the manuscript mentioned in the title, and associated c
 Bardozzo F, Liò P, Tafliaferri R, “The content of interesting motifs and their emerging properties in multi omic metabolic networks” (2017).
 
 ### Abstract
-**Background:**  The two important challenges in the analysis of molecular biology information are the following: (a) data (multi omic information) integration; (b) detecting patterns across large scale molecular networks. The two challenges are actually coupled as the integration of omic information may provide better means to detect multi 
-omic patterns that could reveal multi scale or emerging properties at the phenotype levels.
+**Background:**  	The two important challenges in the	analysis of molecular biology information are the following: (a) data (multi-omic information) integration; (b) detecting patterns across large scale molecular networks. The two challenges are actually coupled as the integration of omic information may provide better means to detect multi-omic patterns that could reveal multi-scale or emerging properties at the phenotype levels.
                                 
-**Results:**  Here we address the problem of integrating various type of molecular information (a large collection of gene expression data, sequence data, codon usage and protein abundances) to analyse the Escherichia Coli metabolic response to treatments at the entire network level. Our algorithm, MORA (Multi-omic relational adjacency) is able to detect patterns which may represent metabolic network motifs at pathway and supra pathway level which could hint at some functional role. We provide description and insights on the algorithm by testing on good size database of responses to antibiotics
-Interestingly, some patterns reveal alternating multi-omics or position variation. Our framework is implemented in a software written in R which provides effective and friendly means to design intervention scenarios in the perspective of comparing and testing metabolic models, designing new pathways or the redesign of an existing metabolic pathway or the experimental validation of an in silico metabolic  model using a nearby species, require the information of how multi-omics data build up multi scale phenotypes.
+**Results:**  Here we address the problem of integrating various types of molecular information (a large collection of gene expression data, sequence data, codon usage and protein abundances) to analyse the Escherichia Coli metabolic response to treatments at the entire network level.Our algorithm, MORA (Multi-omic relational adjacency) is able to detect patterns which may represent metabolic network motifs at pathway and supra pathway levels which could hint at some 		functional role. We provide description and insights on the algorithm by testing it on a large database of responses to antibiotics. Along with the MORA algorithm, a novel model for the analysis of alternating multi-omics has been proposed. Interestingly, the resulting analysis suggests that some motifs reveal recurring alternating or position variation patterns on multi-omics metabolic networks. Our framework, implemented in R, provides effective and friendly means to design intervention scenarios on real data. By analysing how multi-omics data build up multi-scale phenotypes, the software allows to compare and test metabolic models, design new pathways or redesign existing metabolic pathways and validate in silico metabolic models using nearby species.
+				
                                 
- **Conclusions:** The integration of multi-omic data reveals that bacterial multi-omic metabolic networks contain position dependent and multi-omic alternating patterns which could provide clues of long range correlation in the bacterial genome.
- 
+ **Conclusions:**	The integration of multi-omic data reveals that bacterial multi-omic metabolic networks contain position dependent and recurring patterns which could provide clues of long range correlations in the bacterial genome. 
  **Source Code**
- Source for the MORA is in the main repository, and source used to generate multi-omic pattens. The [whole metabolic network](/ecocyc.kegg.igraph.Rdata) is integrated from [KEGG](http://www.genome.jp/kegg/) and [EcoCyc](https://ecocyc.org/).
+ Source for the MORA is in the main repository, and source used to generate multi-omic pattens. The E.coli [whole metabolic network](/ecocyc.kegg.igraph.Rdata) is integrated from [KEGG](http://www.genome.jp/kegg/) and [EcoCyc](https://ecocyc.org/).
 
 Here, for the impatient, is an implementation of MORA in [R](https://cran.r-project.org/)
 
