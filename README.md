@@ -4,7 +4,7 @@ This repository contains the manuscript mentioned in the title, and associated c
 
 ### Citation
 
-Bardozzo Francesco, Liò Pietro, Tagliaferri Roberto, “The content of interesting motifs and their emerging properties in multi omic metabolic networks” (2017).
+Bardozzo Francesco, Liò Pietro, Tagliaferri Roberto, “A study on multi-omic oscillations in Escherichia coli metabolic networks” (2017).
 
 ### Abstract
 **Background:**  	The two important challenges in the	analysis of molecular biology information are the following: (a) data (multi-omic information) integration; (b) detecting patterns across large scale molecular networks. The two challenges are actually coupled as the integration of omic information may provide better means to detect multi-omic patterns that could reveal multi-scale or emerging properties at the phenotype levels.
