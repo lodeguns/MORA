@@ -2,6 +2,8 @@
 
 This repository contains the manuscript mentioned in the title, and associated code and data sets. Should you need help running our code, please contact us.
 
+https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-018-2175-5
+
 ### Citation
 
 Bardozzo Francesco, Liò Pietro, Tagliaferri Roberto, “A study on multi-omic oscillations in Escherichia coli metabolic networks” (2017).
@@ -81,3 +83,20 @@ MORA.comp <- function(pattern, delta, psi, g)
 
 **Licence**
 Computer Laboratory (Cambridge, UK), NeuRoNe Lab (Salerno - IT)
+
+
+** .BIB **
+@Article{Bardozzo2018,
+author="Bardozzo, Francesco and Li{\'o}, Pietro and Tagliaferri, Roberto",
+title="A study on multi-omic oscillations in Escherichia coli metabolic networks",
+journal="BMC Bioinformatics",
+year="2018",
+month="Jul",
+day="09",
+volume="19",
+number="7",
+pages="194",
+issn="1471-2105",
+doi="10.1186/s12859-018-2175-5",
+url="https://doi.org/10.1186/s12859-018-2175-5"
+}
