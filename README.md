@@ -6,7 +6,7 @@ https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-018-2175-5
 
 ### Citation
 
-Bardozzo Francesco, Liò Pietro, Tagliaferri Roberto, “A study on multi-omic oscillations in Escherichia coli metabolic networks” (2017).
+Bardozzo, Francesco, Pietro Lió, and Roberto Tagliaferri. "A study on multi-omic oscillations in Escherichia coli metabolic networks." BMC Bioinformatics 19.7 (2018): 194.
 
 ### Abstract
 **Background:**  	The two important challenges in the	analysis of molecular biology information are the following: (a) data (multi-omic information) integration; (b) detecting patterns across large scale molecular networks. The two challenges are actually coupled as the integration of omic information may provide better means to detect multi-omic patterns that could reveal multi-scale or emerging properties at the phenotype levels.
