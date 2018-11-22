@@ -18,14 +18,14 @@ Bardozzo, Francesco, Pietro Lió, and Roberto Tagliaferri. "A study on multi-omi
  **Source Code**
  Source for the MORA is in the main repository, and source used to generate multi-omic pattens. The E.coli [whole metabolic network](/ecocyc.kegg.igraph.Rdata) is integrated from [KEGG](http://www.genome.jp/kegg/) and [EcoCyc](https://ecocyc.org/).
 
-Here, for the impatient, is an implementation of MORA in [R](https://cran.r-project.org/)
-
 
 
 ![alt text](https://media.springernature.com/full/springer-static/image/art%3A10.1186%2Fs12859-018-2175-5/MediaObjects/12859_2018_2175_Fig5_HTML.png)
 
 
 
+
+Here, for the impatient, is an implementation of MORA in [R](https://cran.r-project.org/)
 
 
 ### MORA (multi-omic relational adjacencies)
