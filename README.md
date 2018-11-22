@@ -20,6 +20,9 @@ Bardozzo, Francesco, Pietro Lió, and Roberto Tagliaferri. "A study on multi-omi
 
 
 
+### MORA (multi-omic relational adjacencies)
+
+
 ![alt text](https://media.springernature.com/full/springer-static/image/art%3A10.1186%2Fs12859-018-2175-5/MediaObjects/12859_2018_2175_Fig5_HTML.png)
 
 
@@ -28,7 +31,7 @@ Bardozzo, Francesco, Pietro Lió, and Roberto Tagliaferri. "A study on multi-omi
 Here, for the impatient, is an implementation of MORA in [R](https://cran.r-project.org/)
 
 
-### MORA (multi-omic relational adjacencies)
+
 ```
 MORA.comp <- function(pattern, delta, psi, g)
 {
@@ -90,7 +93,7 @@ MORA.comp <- function(pattern, delta, psi, g)
 ```
 
 **Licence**
-Computer Laboratory (Cambridge, UK), NeuRoNe Lab (Salerno - IT)
+BMC Bioinformatics, This work is supported by the Computer Laboratory (University of Cambridge, UK), NeuRoNe Lab (University of Salerno - IT)
 
 
 ** .BIB **
